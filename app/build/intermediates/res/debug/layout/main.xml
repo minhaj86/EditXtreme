@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="@string/editor_label"/>
+<EditText android:id="@+id/editText1" 
+android:layout_width="match_parent" 
+android:inputType="textMultiLine" 
+android:layout_weight="0.88" 
+android:layout_height="match_parent" 
+android:isScrollContainer="true"
+android:gravity="top"
+>
+    <requestFocus></requestFocus>
+</EditText>
+</LinearLayout>
+<!-- From: file:/home/mrl/AndroidStudioProjects/EditXtreme/app/src/main/res/layout/main.xml -->

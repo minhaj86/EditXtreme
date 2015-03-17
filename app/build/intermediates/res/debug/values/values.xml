@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/mrl/AndroidStudioProjects/EditXtreme/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">EditXtreme</string>
+    <string name="editor_label">EditXtreme Editor</string>
+    <string name="explorer_app_name">Choose a File</string>
+    <string name="explorer_label">EditXtreme File Chooser</string>
+    <string name="hello">My Text Editor</string>
+    <string name="help">Help</string>
+    <string name="helpbody">This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. This is a help text. 
+    </string>
+</resources>

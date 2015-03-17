@@ -1,0 +1,46 @@
+//previous save
+
+			try {
+				InputStream in=openFileInput("a.txt");
+				
+				if(in!=null){
+					BufferedReader br=new BufferedReader(new InputStreamReader(in));
+					String str;
+					StringBuffer buf=new StringBuffer();
+					
+					while((str=br.readLine())!=null){
+						buf.append(str+"\n");
+					}
+					in.close();
+					
+					maintext.setText(buf.toString());
+				}
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} //catch()
+			catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+			
+			
+
+
+
+
+//previous load
+			OutputStream os;
+			try {
+				os = openFileOutput("a.txt",0);
+				OutputStreamWriter or=new OutputStreamWriter(os);//
+				or.write(maintext.getText().toString());
+				or.close();
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
